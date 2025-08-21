@@ -27,7 +27,7 @@ int main() //driver code
     while (gameRun)
     {
         word = gameStart(); //get the random word from file
-        wordLength = word.length() - 1; //calculate word length
+        wordLength = word.length(); //calculate word length
 
         char *fileWord = new char[wordLength]; //dynamically allocate memory for 2 arrays of size wordLength
         char *blankWord = new char[wordLength];
@@ -95,4 +95,5 @@ Letter Bank:
 A B C D E F G H I J
 K L M N O P Q R S T
     U V W X Y Z
+
 */
